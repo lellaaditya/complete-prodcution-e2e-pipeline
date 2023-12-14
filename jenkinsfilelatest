@@ -43,8 +43,6 @@ pipeline{
                  url: 'https://adityame.jfrog.io/',
                  username: 'adityajfrog',
                   password: 'Adity@20',
-                  bypassProxy: true,
-                   timeout: 300
                         )
             }
         }
@@ -55,7 +53,7 @@ pipeline{
                   spec: '''{
                    "files": [
                       {
-                      "pattern": "**",
+                      "pattern": "*",
                       "target": "jenkins-maven"
                       }
                             ]
