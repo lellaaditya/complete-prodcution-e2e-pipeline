@@ -56,7 +56,7 @@ pipeline{
                    "files": [
                       {
                       "pattern": "**",
-                      "target": "logic-ops-lab-libs-snapshot-local"
+                      "target": "jenkins-maven"
                       }
                             ]
                            }''',
