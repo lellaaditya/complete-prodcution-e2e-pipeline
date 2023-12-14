@@ -40,9 +40,9 @@ pipeline{
             steps {
                rtServer (
                  id: "adityame",
-                 url: 'http://localhost:8082/artifactory',
-                 username: 'ravish',
-                  password: 'YouPasswordHere',
+                 url: 'https://adityame.jfrog.io/',
+                 username: 'adityajfrog',
+                  password: 'Adity@20',
                   bypassProxy: true,
                    timeout: 300
                         )
